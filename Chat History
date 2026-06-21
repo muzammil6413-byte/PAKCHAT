@@ -1,0 +1,4 @@
+localStorage.setItem("chat", chatBox.innerHTML);
+
+chatBox.innerHTML =
+localStorage.getItem("chat");
