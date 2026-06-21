@@ -1,0 +1,21 @@
+function aiReply(message) {
+  message = message.toLowerCase();
+
+  if (message.includes("hello") || message.includes("hi")) {
+    return "👋 Assalam-o-Alaikum! How can I help you today?";
+  }
+
+  if (message.includes("how are you")) {
+    return "😊 I'm doing great! Thanks for asking. How are you?";
+  }
+
+  if (message.includes("your name")) {
+    return "🤖 My name is PakChat AI, your smart assistant.";
+  }
+
+  if (message.includes("bye")) {
+    return "👋 Allah Hafiz! Have a wonderful day.";
+  }
+
+  return "🤖 I understand your question. Please tell me more, and I'll try my best to help you.";
+}
