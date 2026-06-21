@@ -1,0 +1,5 @@
+let reply = aiReply(message);
+
+chatBox.innerHTML += `
+<div class="bot-message">${reply}</div>
+`;
